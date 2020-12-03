@@ -44,8 +44,8 @@ type Project struct {
 	DigestMinDelay     *int                    `json:"digestMinDelay,omitempty"`
 	DigestMaxDelay     *int                    `json:"digestMaxDelay,omitempty"`
 	VerifySSL          *bool                   `json:"verifySSL,omitempty"`
-	SubjectPrefix      *bool                   `json:"subjectPrefix,omitempty"`
-	SubjectTemplate    *bool                   `json:"subjectTemplate,omitempty"`
+	SubjectPrefix      *string                 `json:"subjectPrefix,omitempty"`
+	SubjectTemplate    *string                 `json:"subjectTemplate,omitempty"`
 }
 
 // CreateProject will create a new project in your org and team
