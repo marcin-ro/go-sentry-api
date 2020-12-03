@@ -4,6 +4,8 @@
 
 This is a library that implements a client in go for the [sentry api](http://www.sentry.io/api/). It supports all the endpoints and can do a good bit. For a full reference you can check the godoc link above.
 
+**THIS IS A FORK** of the original `atlassian/go-sentry-api` created to add missing fields.
+
 ## Usage
 ### Initialization and Create New DSN Key
 ```go

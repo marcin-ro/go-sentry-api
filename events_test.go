@@ -3,7 +3,7 @@ package sentry
 import (
 	"testing"
 
-	"github.com/atlassian/go-sentry-api/datatype"
+	"github.com/marcin-ro/go-sentry-api/datatype"
 )
 
 func TestEventsResource(t *testing.T) {
